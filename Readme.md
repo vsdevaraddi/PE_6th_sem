@@ -139,7 +139,7 @@
  ```
  ---
  ### **Folder**: data
- This folder contains all the valid data collected during the project.
+ This folder contains all the data collected during the project.
 
  ---
 
