@@ -104,7 +104,7 @@
 ### **Folder**: arduino_codes
  This folder contains all the Arduino codes.
 
- **angle_ppg_data_aquisition:** This Arduino code will collect data from the AFE4490 shield(PPG signals) and one IMU sensor(angle), and send it to the serial monitor. The conclusion of this code is that it is heavy for an Arduino uno R3 to run, as a consequence, it does not read data with the required rate.
+ **angle_ppg_data_aquisition:** This Arduino code will collect data from the AFE4490 shield(PPG signals) and one IMU sensor(angle), and send it to the serial monitor. The conclusion of this code is that it is heavy for an Arduino uno R3 to handle them simultaneously, as a consequence, it does not read data with the required rate.
  ```
  Open the program in Arduino IDE and upload it into the Arduino uno
  Hardware connections are mentioned in the program. 
